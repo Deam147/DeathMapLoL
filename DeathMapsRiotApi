@@ -1,0 +1,32 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="riotAPICoords.js"></script>
+    <div><h1>
+      Death Maps 
+    </h1></div>
+
+    <div id="map">
+    </div>
+
+    <div>
+      <select name="selectPlayer" id="selectPlayer">
+        <option value="1">Top Blue Side</option>
+        <option value="2" selected>Jungle Blue Side</option>
+        <option value="3">Mid Blue Side</option>
+        <option value="4">Adc Blue Side</option>
+        <option value="5">Support Blue Side</option>
+        <option value="6">Top Red Side</option>
+        <option value="7">Jungle Red Side</option>
+        <option value="8">Mid Red Side</option>
+        <option value="9">Adc Red Side</option>
+        <option value="10">Support Red Side</option>
+
+      </select>     
+    </div>
+    <button onclick="run()">Generate Map</button>
+
+  </body>
