@@ -103,7 +103,7 @@ function getNames(match){
     championsNames[10] = summaryData["participants"][9]["championName"];
 
     })
-
+ 
 
 
   }
@@ -394,9 +394,55 @@ function deleteMap(id){
 
 }
 
+
+function cargarPlayers(match) {
+
+  // Modifique los nombres de tus propiedas a minúsculas.
+
+  var matches = document.getElementById('matches')
+
+  var url="./jsonData/"+match+"data.json"
+
+  fetch(url)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+      console.log(data);
+
+
+      var summaryData = data;
+      var selectPlayer = document.getElementById('selectPlayer')
+      selectPlayer.innerHTML = '<option value="">Select Player...</option>'
+      console.log("Test2")
+    
+      for (let i = 0; i < summaryData["participants"].length; i++) {
+          console.log("Test" +i)
+          let opcion = document.createElement('option')
+          opcion.value = i+1
+          opcion.text = summaryData["participants"][i]["summonerName"]
+          selectPlayer.add(opcion)    
+    
+      }
+
+
+
+  })
+
+ 
+
+
+  
+
+
+
+}
+
 function getNamesSelect(){
   var matchSelector = document.getElementById('matches').value;
 
   getNames(matchSelector);
+  cargarPlayers(matchSelector)
+
 }
 
