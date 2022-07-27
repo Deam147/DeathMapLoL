@@ -20,6 +20,7 @@
   <div class="divfilter">
  
     <select class="selectFilter" name="selectLeague" id="selectLeague" onchange="cargarTeams();">
+      <option value="">Seleccione una liga...</option>
       <option value="DDHCLOSING2022">DDH Closing 2022</option>
       <option value="ELCLOSING2022">EL Closing 2022</option>
       <option value="GLCLOSING2022">GL Closing 2022</option>
@@ -30,7 +31,7 @@
     <select class="selectFilter" name="teams" id="teams" onchange="cargarMatches();">
       <option value="">Seleccione un team...</option>
     </select>
-    <select class="selectFilter" name="matches" id="matches">
+    <select class="selectFilter" name="matches" id="matches" onchange="getNamesSelect();">
       <option value="">Seleccione una partida...</option>
     </select>
 
@@ -39,8 +40,9 @@
 
   <div class="divfilter">
     <select class="selectPlayer" name="selectPlayer" id="selectPlayer">
+      <option value="">Seleccione un jugador...</option>
       <option value="1">Top Blue Side</option>
-      <option value="2" selected>Jungle Blue Side</option>
+      <option value="2">Jungle Blue Side</option>
       <option value="3">Mid Blue Side</option>
       <option value="4">Adc Blue Side</option>
       <option value="5">Support Blue Side</option>

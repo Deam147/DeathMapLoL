@@ -394,3 +394,9 @@ function deleteMap(id){
 
 }
 
+function getNamesSelect(){
+  var matchSelector = document.getElementById('matches').value;
+
+  getNames(matchSelector);
+}
+

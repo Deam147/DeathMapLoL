@@ -3,6 +3,8 @@ function cargarMatches() {
     var teams = document.getElementById('teams').value
 
     var url="./jsonIds/"+leagues.value+".json"
+    var urlPlayoffs="./jsonIds/"+leagues.value+"PLAYOFFS.json"
+
     console.log(url)
     console.log(teams)
 
@@ -17,6 +19,18 @@ function cargarMatches() {
 //printing complete data1
         var idsData = data
         console.log(idsData)
+
+
+        fetch(urlPlayoffs)
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (data) {
+            console.log(data);
+
+
+            var idsDataPlayoffs = data
+
     var selector = document.getElementById('matches');
     selector.innerHTML = '<option value="">Select Match...</option>'
 
@@ -35,10 +49,26 @@ function cargarMatches() {
 
 
         }
+        for (let i = 0; i < idsDataPlayoffs["cargoquery"].length; i++) {
+
+            if(idsDataPlayoffs["cargoquery"][i]["title"]["Blue"] == teams || idsDataPlayoffs["cargoquery"][i]["title"]["Red"] == teams){
+
+
+                console.log("match encontrado de " + teams)
+                var textSelector= idsDataPlayoffs["cargoquery"][i]["title"]["DateTime UTC"].slice(0,10)+"    Blue: " + idsDataPlayoffs["cargoquery"][i]["title"]["Blue"] +"   VS"+"    Red: " + idsDataPlayoffs["cargoquery"][i]["title"]["Red"]+" PLAYOFFS"
+                var opcion = document.createElement("option");
+                opcion.text = textSelector;
+                opcion.value = idsDataPlayoffs["cargoquery"][i]["title"]["RiotPlatformGameId"]
+                selector.add(opcion);
+            }
+
+
+        }
        // var array = ["Sistemas", "Redes", "Electrica", "Industrial", "Electronica"];
        // array.sort();
        // addOptions("carrera", array);
-    })
+    })})
+
 
 }
 
@@ -56,7 +86,7 @@ function cargarTeams() {
 
     // Modifique los nombres de tus propiedas a minúsculas.
     var teamlist = {
-        DDHCLOSING2022: ["P\u00caEK Gaming", "Atheris Esports", "Tomorrow Esports", "Zylant Esports", "Six Karma","Atomic M\u00e9xico","Arctic Gaming Mexico"],
+        DDHCLOSING2022: ["P\u00caEK Gaming", "Atheris Esports", "Tomorrow Esports", "Zylant Esports", "Six Karma","Atomic M\u00e9xico","Arctic Gaming Mexico","The Kings"],
         ELCLOSING2022: ["Red Rooster Team", "Janus Esports", "Saprissa Esports", "Gravity Elite", "Fuego", "Bandits Gaming", "Vandals Esports"],
         GLCLOSING2022: ["Osaka", "NOCTA", "Awake Gaming", "Zeu5 Bogota", "Spirituals", "PRO42", "Braves Rising", "Mayan Esports"],
         VLCLOSING2022: ["Aguilas Doradas", "God's Plan", "Waia Snikt", "Descuydado Esports", "AceS GaminG", "GeekSide Esports", "Skull Cracker", "Pirate Dream"],
@@ -84,6 +114,8 @@ function cargarTeams() {
         });
     }
 
+
+
 }
-cargarTeams() ;
+//cargarTeams() ;
 //cargarMatch();
