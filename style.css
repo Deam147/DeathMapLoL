@@ -66,6 +66,7 @@ button:active {
 select {
   position: relative;
   top: 590px;
+  font-size: 20px!important;
   appearance: none;
   outline: 0;
   border: 0;
@@ -107,6 +108,10 @@ select::-ms-expand {
 /* Transition */
 .select:hover::after {
   color: #f39c12;
+}
+option{
+  font-size: 20px!important;
+
 }
 
 h1 {
