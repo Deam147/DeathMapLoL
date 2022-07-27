@@ -6,11 +6,26 @@ var championTopRed,championJungleRed,championMidRed,championAdcRed,championSuppo
 var playerTopBlue,playerJungleBlue,playerMidBlue,playerAdcBlue,playerSupportBlue;
 var playerTopRed,playerJungleRed,playerMidRed,playerAdcRed,playerSupportRed;
 
-function getNames(){
+var playersNames = []
+var championsNames = []
+
+function minutesToTime(minutes) {
+
+
+
+  time = new Date((minutes / 60000) * 60 * 1000).toISOString().substr(11, 8);
+
+
+  return time;
+}
+
+
+function getNames(match){
     
+  var url="./jsonData/"+match+"data.json"
 
 
-    fetch("./jsonData/ESPORTSTMNT03_2780949data.json")
+    fetch(url)
     .then(function (response) {
       return response.json();
     })
@@ -57,7 +72,35 @@ function getNames(){
     console.log(playerTopRed)
     console.log(championTopRed)
 
+    // Players Blue Side
+    playersNames[1] = summaryData["participants"][0]["summonerName"];
+    playersNames[2] = summaryData["participants"][1]["summonerName"];
+    playersNames[3] = summaryData["participants"][2]["summonerName"];
+    playersNames[4] = summaryData["participants"][3]["summonerName"];
+    playersNames[5] = summaryData["participants"][4]["summonerName"];
+//
+    //Players RedSide
 
+    playersNames[6] = summaryData["participants"][5]["summonerName"];
+    playersNames[7] = summaryData["participants"][6]["summonerName"];
+    playersNames[8] = summaryData["participants"][7]["summonerName"];
+    playersNames[9] = summaryData["participants"][8]["summonerName"];
+    playersNames[10] = summaryData["participants"][9]["summonerName"];
+
+    // Champions Blue Side
+    championsNames[1] = summaryData["participants"][0]["championName"];
+    championsNames[2] = summaryData["participants"][1]["championName"];
+    championsNames[3] = summaryData["participants"][2]["championName"];
+    championsNames[4] = summaryData["participants"][3]["championName"];
+    championsNames[5] = summaryData["participants"][4]["championName"];
+
+    //Champions RedSide
+
+    championsNames[6] = summaryData["participants"][5]["championName"];
+    championsNames[7] = summaryData["participants"][6]["championName"];
+    championsNames[8] = summaryData["participants"][7]["championName"];
+    championsNames[9] = summaryData["participants"][8]["championName"];
+    championsNames[10] = summaryData["participants"][9]["championName"];
 
     })
 
@@ -103,12 +146,13 @@ async function getCoordsAsync(){
 }
 
 
-function getCoords(playerSelect){
-    
+function getCoords(playerSelect,match){
+  var url="./jsonData/"+match+"timeline.json"
+
   const coords = [];
   var victims = [];
-
-    fetch("./jsonData/ESPORTSTMNT03_2780949timeline.json")
+  var textChampionKill = ""
+    fetch(url)
     .then(function (response) {
       return response.json();
     })
@@ -139,9 +183,22 @@ console.log(timelineData);
                 victims.push(timelineData["frames"][i]["events"][y]["victimId"])
 
                 if (timelineData["frames"][i]["events"][y]["victimId"] == playerSelect) {
-                    console.log("found death jungle red")
 
-                    coords.push([timelineData["frames"][i]["events"][y]["position"]["x"],timelineData["frames"][i]["events"][y]["position"]["y"],"Champion Kill"])
+                  var killerId = timelineData["frames"][i]["events"][y]["killerId"]
+
+                  var victimId = timelineData["frames"][i]["events"][y]["victimId"]
+                  var timeKill = minutesToTime(timelineData["frames"][i]["events"][y]["timestamp"])
+
+                  var imageKiller = "<img class='imageChampion' src='https://ddragon.leagueoflegends.com/cdn/12.13.1/img/champion/"+championsNames[killerId]+".png'></img>"
+                  var imageVictim = "<img class='imageChampion' src='https://ddragon.leagueoflegends.com/cdn/12.13.1/img/champion/"+championsNames[victimId]+".png'></img>"
+
+                    //console.log("found death jungle red")
+                    textChampionKill =imageKiller+"<span class='champKills'>"+playersNames[killerId] + " Killed " + playersNames[victimId]+"<span>"+imageVictim  + "<br>" + "<p class='timer'>" + timeKill + "<p>";
+
+
+                  console.log("leyenda: " + textChampionKill)
+
+                    coords.push([timelineData["frames"][i]["events"][y]["position"]["x"],timelineData["frames"][i]["events"][y]["position"]["y"],textChampionKill])
 
 
                 }
@@ -197,11 +254,11 @@ async function test(coordenadas) {
     .append("div")
     .style("opacity", 0)
     .attr("class", "tooltip").attr("id", contador)
-    .style("background-color", "white")
+    .style("background-color", "black")
     .style("border", "solid")
     .style("border-width", "2px")
     .style("border-radius", "5px")
-    .style("padding", "5px").style("position", "absolute")
+    .style("padding", "5px").style("position", "absolute").style("z-index", "5")
 
   // Three function that change the tooltip when user hover / move / leave a cell
   var mouseover = function(d) {
@@ -213,13 +270,13 @@ async function test(coordenadas) {
   }
   var mousemove = function(d) {
     Tooltip
-      .html("The exact value of<br>this cell is: " + d[2])
-      .style("left", (d3.mouse(this)[0]+100) + "px")
-      .style("top", (d3.mouse(this)[1]) + "px")
+      .html(d[2]).style("color", "white")
+      .style("left", (d3.mouse(this)[0]+100)+468 + "px")
+      .style("top", (d3.mouse(this)[1]) + "px").style("display", "block")
   }
   var mouseleave = function(d) {
     Tooltip
-      .style("opacity", 0)
+      .style("opacity", 0).style("display", "none")
     d3.select(this)
       .style("stroke", "none")
       .style("opacity", 0.8)
@@ -237,6 +294,7 @@ async function test(coordenadas) {
     width = 512,
     height = 512,
     bg = "http://ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map11.png",
+    championdead = "https://raw.communitydragon.org/12.13/game/assets/ux/minimap/icons/champion_dead.png",
     xScale,
     yScale,
     svg;
@@ -284,7 +342,7 @@ async function test(coordenadas) {
       return yScale(d[1]);
     })
     .attr("r", 5)
-    .attr("class", "kills")
+    .attr("class", "kills").style("z-index", "6")
     .style("fill", "#FF0000").on("mouseover", mouseover)
     .on("mousemove", mousemove)
     .on("mouseleave", mouseleave);
@@ -296,11 +354,16 @@ async function test(coordenadas) {
 }
 
 async function run(){
+  var matchSelector = document.getElementById('matches').value;
 
-  getNames();
-  if(contador >= 2){
+  getNames(matchSelector);
+  if(contador >= 1){
     deleteMap(contador-1)
+  const boxes = Array.from(document.getElementsByClassName('centerImg'));
 
+  boxes.forEach(box => {
+    box.remove();
+  });
 
   }
 
@@ -313,7 +376,7 @@ var value = select.options[select.selectedIndex].value;
 console.log("player select: " + value)
   console.log('Before promise call.')
 
-  const cords = await getCoords(value);
+  const cords = await getCoords(value,matchSelector);
 
  console.log("Run cords: "+cords)
  console.log(cords)

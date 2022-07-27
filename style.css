@@ -1,3 +1,7 @@
+:root {
+    --gray: #34495e;
+    --darkgray: #2c3e50;
+  }
 #map svg {
     position: absolute;
     margin-left: auto;
@@ -62,11 +66,55 @@ button {
   button:active {
     transform: translateY(-1px);
   }
-select{
+
+
+  select {
+    position: relative;
+    top: 590px;
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: var(--darkgray);
+    background-image: none;
+    cursor: pointer;
+    width: 500px;
+    height: 30px;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select wrapper */
+  .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: .25em;
+    text-align: center;
+    overflow: hidden;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
     position: absolute;
-    top: 750px;
-    left: 50%
-}
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #34495e;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #f39c12;
+  }
+  
+
 
 h1{
 
@@ -76,4 +124,74 @@ h1{
     margin-bottom: 2%;
     color: white;
     font-size: 3em;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1070;
+    display: block;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    white-space: normal;
+    line-break: auto;
+    font-size: .875rem;
+    word-wrap: break-word;
+    opacity: 0;
+}
+
+.imageChampion{
+    position: relative !important;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 5px !important;
+    top: 5px!important;
+}
+
+.timer{
+    position: relative !important;
+    margin-top: 2px !important;
+    text-align: center;
+
+
+}
+
+.champKills{
+    top: 20px !important;
+
+    
+}
+.selectFilter{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divfilter {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+.selectPlayer{
+    position: relative;
+    top: 625px;
+    margin-top: 20px;
 }

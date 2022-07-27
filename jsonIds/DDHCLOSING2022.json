@@ -1,0 +1,853 @@
+{
+    "limits": {
+        "cargoquery": 500
+    },
+    "cargoquery": [
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2901284",
+                "Blue": "Tomorrow Esports",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-05-19 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2901287",
+                "Blue": "P\u00caEK Gaming",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-05-19 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2901300",
+                "Blue": "Six Karma",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-05-19 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2901303",
+                "Blue": "Zylant Esports",
+                "Red": "Arctic Gaming Mexico",
+                "DateTime UTC": "2022-05-19 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2911663",
+                "Blue": "Atheris Esports",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-05-20 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2911672",
+                "Blue": "Arctic Gaming Mexico",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-05-20 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2911679",
+                "Blue": "Atomic M\u00e9xico",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-05-20 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2911692",
+                "Blue": "The Kings",
+                "Red": "P\u00caEK Gaming",
+                "DateTime UTC": "2022-05-20 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2912059",
+                "Blue": "Zylant Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-05-21 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2912068",
+                "Blue": "Six Karma",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-05-21 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2912071",
+                "Blue": "Tomorrow Esports",
+                "Red": "P\u00caEK Gaming",
+                "DateTime UTC": "2022-05-21 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2912077",
+                "Blue": "Arctic Gaming Mexico",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-05-21 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2913807",
+                "Blue": "P\u00caEK Gaming",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-05-26 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2913839",
+                "Blue": "Atomic M\u00e9xico",
+                "Red": "Arctic Gaming Mexico",
+                "DateTime UTC": "2022-05-26 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2913857",
+                "Blue": "The Kings",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-05-26 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2913860",
+                "Blue": "Atheris Esports",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-05-26 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2914109",
+                "Blue": "Tomorrow Esports",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-05-27 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2914132",
+                "Blue": "Atheris Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-05-27 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2914137",
+                "Blue": "Zylant Esports",
+                "Red": "P\u00caEK Gaming",
+                "DateTime UTC": "2022-05-27 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2914141",
+                "Blue": "Arctic Gaming Mexico",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-05-27 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2914404",
+                "Blue": "The Kings",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-05-28 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2914429",
+                "Blue": "Atomic M\u00e9xico",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-05-28 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2904387",
+                "Blue": "Six Karma",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-05-28 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2904396",
+                "Blue": "P\u00caEK Gaming",
+                "Red": "Arctic Gaming Mexico",
+                "DateTime UTC": "2022-05-28 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2905922",
+                "Blue": "Arctic Gaming Mexico",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-06-02 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2905959",
+                "Blue": "Tomorrow Esports",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-06-02 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2905969",
+                "Blue": "Atheris Esports",
+                "Red": "P\u00caEK Gaming",
+                "DateTime UTC": "2022-06-02 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2905982",
+                "Blue": "Atomic M\u00e9xico",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-06-02 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2916128",
+                "Blue": "The Kings",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-06-03 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2916140",
+                "Blue": "Atomic M\u00e9xico",
+                "Red": "P\u00caEK Gaming",
+                "DateTime UTC": "2022-06-03 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2916150",
+                "Blue": "Atheris Esports",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-06-03 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2916163",
+                "Blue": "Arctic Gaming Mexico",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-06-03 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2916276",
+                "Blue": "Zylant Esports",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-06-04 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2916286",
+                "Blue": "Tomorrow Esports",
+                "Red": "Arctic Gaming Mexico",
+                "DateTime UTC": "2022-06-04 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2916294",
+                "Blue": "Six Karma",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-04 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2916297",
+                "Blue": "P\u00caEK Gaming",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-06-04 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2776483",
+                "Blue": "Atomic M\u00e9xico",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-06-09 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2776503",
+                "Blue": "The Kings",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-06-09 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2776520",
+                "Blue": "P\u00caEK Gaming",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-06-09 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2776529",
+                "Blue": "Atheris Esports",
+                "Red": "Arctic Gaming Mexico",
+                "DateTime UTC": "2022-06-09 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2777049",
+                "Blue": "Six Karma",
+                "Red": "P\u00caEK Gaming",
+                "DateTime UTC": "2022-06-10 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2777068",
+                "Blue": "Arctic Gaming Mexico",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-10 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2777095",
+                "Blue": "Zylant Esports",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-06-10 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2777112",
+                "Blue": "Tomorrow Esports",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-06-10 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2777697",
+                "Blue": "Atomic M\u00e9xico",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-06-11 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2777712",
+                "Blue": "P\u00caEK Gaming",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-06-11 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2777731",
+                "Blue": "The Kings",
+                "Red": "Arctic Gaming Mexico",
+                "DateTime UTC": "2022-06-11 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2777739",
+                "Blue": "Six Karma",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-06-11 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2810836",
+                "Blue": "Arctic Gaming Mexico",
+                "Red": "P\u00caEK Gaming",
+                "DateTime UTC": "2022-06-16 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2810847",
+                "Blue": "Atheris Esports",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-06-16 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2810871",
+                "Blue": "Tomorrow Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-16 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2810878",
+                "Blue": "Zylant Esports",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-06-16 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2830334",
+                "Blue": "Six Karma",
+                "Red": "Arctic Gaming Mexico",
+                "DateTime UTC": "2022-06-17 00:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2830347",
+                "Blue": "Zylant Esports",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-06-17 01:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2830355",
+                "Blue": "P\u00caEK Gaming",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-06-17 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT02_2830373",
+                "Blue": "The Kings",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-17 03:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2784546",
+                "Blue": "The Kings",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-06-22 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2784572",
+                "Blue": "Tomorrow Esports",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-06-22 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2784583",
+                "Blue": "Atomic M\u00e9xico",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-06-23 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2784609",
+                "Blue": "Six Karma",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-23 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2795437",
+                "Blue": "Zylant Esports",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-06-23 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2795481",
+                "Blue": "Atheris Esports",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-06-23 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2795401",
+                "Blue": "Atheris Esports",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-06-23 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2795500",
+                "Blue": "Six Karma",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-06-24 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2795515",
+                "Blue": "Tomorrow Esports",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-06-24 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2796182",
+                "Blue": "The Kings",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-06-24 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2796232",
+                "Blue": "Zylant Esports",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-06-24 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2796260",
+                "Blue": "The Kings",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-06-24 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2796300",
+                "Blue": "Atheris Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-25 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2796322",
+                "Blue": "Atomic M\u00e9xico",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-06-25 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2796336",
+                "Blue": "Atheris Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-25 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2799551",
+                "Blue": "Atheris Esports",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-06-29 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2799562",
+                "Blue": "Atheris Esports",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-06-29 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2799579",
+                "Blue": "The Kings",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-06-30 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2799586",
+                "Blue": "Six Karma",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-06-30 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2789661",
+                "Blue": "Zylant Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-30 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2789673",
+                "Blue": "Zylant Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-30 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2799924",
+                "Blue": "Zylant Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-06-30 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2799931",
+                "Blue": "Atheris Esports",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-07-01 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2799935",
+                "Blue": "Six Karma",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-07-01 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2799944",
+                "Blue": "Atheris Esports",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-07-01 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2789918",
+                "Blue": "Tomorrow Esports",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-07-01 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2789913",
+                "Blue": "Zylant Esports",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-07-01 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2789908",
+                "Blue": "Zylant Esports",
+                "Red": "Tomorrow Esports",
+                "DateTime UTC": "2022-07-01 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2789921",
+                "Blue": "The Kings",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-07-02 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2789929",
+                "Blue": "The Kings",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-07-02 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT03_2789937",
+                "Blue": "The Kings",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-07-02 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2965804",
+                "Blue": "Zylant Esports",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-07-06 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2983296",
+                "Blue": "Zylant Esports",
+                "Red": "Six Karma",
+                "DateTime UTC": "2022-07-06 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2965816",
+                "Blue": "Six Karma",
+                "Red": "Zylant Esports",
+                "DateTime UTC": "2022-07-06 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2965819",
+                "Blue": "Tomorrow Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-07-07 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2965826",
+                "Blue": "Tomorrow Esports",
+                "Red": "Atomic M\u00e9xico",
+                "DateTime UTC": "2022-07-07 02:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2966168",
+                "Blue": "The Kings",
+                "Red": "Atheris Esports",
+                "DateTime UTC": "2022-07-07 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        },
+        {
+            "title": {
+                "RiotPlatformGameId": "ESPORTSTMNT01_2966186",
+                "Blue": "Atheris Esports",
+                "Red": "The Kings",
+                "DateTime UTC": "2022-07-07 23:00:00",
+                "DateTime UTC__precision": "0"
+            }
+        }
+    ]
+}

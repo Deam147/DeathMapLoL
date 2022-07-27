@@ -3,30 +3,57 @@
 </head>
 
 <body class="body">
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="riotAPICoords.js"></script>
-    <div><h1>
-      Death Maps 
-    </h1></div>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="riotAPICoords.js"></script>
+  <script src="selectMatch.js"></script>
 
-    <div id="map">
-    </div>
+  <div>
+    <h1>
+      Death Maps
+    </h1>
+  </div>
 
-    <div>
-      <select name="selectPlayer" id="selectPlayer">
-        <option value="1">Top Blue Side</option>
-        <option value="2" selected>Jungle Blue Side</option>
-        <option value="3">Mid Blue Side</option>
-        <option value="4">Adc Blue Side</option>
-        <option value="5">Support Blue Side</option>
-        <option value="6">Top Red Side</option>
-        <option value="7">Jungle Red Side</option>
-        <option value="8">Mid Red Side</option>
-        <option value="9">Adc Red Side</option>
-        <option value="10">Support Red Side</option>
+  <div id="map">
+    <svg width="512" height="512" class="centerImg" id="0"><image xlink:href="http://ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map11.png" x="0" y="0" width="512" height="512"></image><g></g></svg>
+  </div>
 
-      </select>     
-    </div>
-    <button onclick="run()">Generate Map</button>
+  <div class="divfilter">
+ 
+    <select class="selectFilter" name="selectLeague" id="selectLeague" onchange="cargarTeams();">
+      <option value="DDHCLOSING2022">DDH Closing 2022</option>
+      <option value="ELCLOSING2022">EL Closing 2022</option>
+      <option value="GLCLOSING2022">GL Closing 2022</option>
+      <option value="VLCLOSING2022">VL Closing 2022</option>
+      <option value="LCKSUMMER2022">LCK Summer 2022</option>
+      <option value="LECSUMMER2022">LEC Summer 2022</option>
+    </select>
+    <select class="selectFilter" name="teams" id="teams" onchange="cargarMatches();">
+      <option value="">Seleccione un team...</option>
+    </select>
+    <select class="selectFilter" name="matches" id="matches">
+      <option value="">Seleccione una partida...</option>
+    </select>
 
-  </body>
+
+  </div>
+
+  <div class="divfilter">
+    <select class="selectPlayer" name="selectPlayer" id="selectPlayer">
+      <option value="1">Top Blue Side</option>
+      <option value="2" selected>Jungle Blue Side</option>
+      <option value="3">Mid Blue Side</option>
+      <option value="4">Adc Blue Side</option>
+      <option value="5">Support Blue Side</option>
+      <option value="6">Top Red Side</option>
+      <option value="7">Jungle Red Side</option>
+      <option value="8">Mid Red Side</option>
+      <option value="9">Adc Red Side</option>
+      <option value="10">Support Red Side</option>
+  
+    </select>
+  </div>
+
+  <button class="selectFilter" onclick="run()">Generate Map</button>
+
+
+</body>
